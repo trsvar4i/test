@@ -1,3 +1,6 @@
+/* Full-width page at every viewport size. */
+html body{margin:0;padding:0;background:#000}
+body .site{width:100%;max-width:none;min-height:100vh;margin:0;border:0;border-radius:0;box-shadow:none}
 /* Shared geometry keeps every icon independent of font rendering. */
 .ui-icon{display:block;width:18px;height:18px;flex:0 0 18px;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
 button{display:inline-flex;align-items:center;justify-content:center;gap:12px;line-height:20px;border-radius:7px;transition:background .2s,border-color .2s,box-shadow .2s}
