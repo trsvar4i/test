@@ -1,0 +1,24 @@
+/* Shared geometry keeps every icon independent of font rendering. */
+.ui-icon{display:block;width:18px;height:18px;flex:0 0 18px;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+button{display:inline-flex;align-items:center;justify-content:center;gap:12px;line-height:20px;border-radius:7px;transition:background .2s,border-color .2s,box-shadow .2s}
+.primary,.outline{min-height:42px;padding:10px 17px}
+.primary{box-shadow:0 1px 0 #ffffff50 inset,0 3px 10px #0002}
+.primary:hover{background:#f1e8fa;border-color:#f1e8fa;box-shadow:0 0 24px #d354e530;transform:none}
+.outline:hover{background:#24122e;border-color:#bd93ce;transform:none}
+.text-button:hover{color:#fff;transform:none;box-shadow:none}
+.primary .arrow-icon{width:16px;height:16px;flex-basis:16px}
+nav a{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:36px;line-height:20px;transition:color .2s}
+nav .chevron-icon{width:13px;height:13px;flex-basis:13px;stroke-width:1.8;color:#9b8da5}
+.partner-mark{display:block;width:31px;height:31px;flex:0 0 31px;stroke:currentColor;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.account{gap:16px}.account .outline{min-height:36px;padding:7px 15px}
+.menu{width:38px;height:38px;padding:8px;align-items:center;justify-content:center;border-radius:7px}
+.menu .ui-icon{width:21px;height:21px;flex-basis:21px}
+.close{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;padding:8px;top:12px;right:12px;border-radius:8px}
+.close:hover,.menu:hover{background:#ffffff0a;transform:none;box-shadow:none}
+.close .ui-icon{width:19px;height:19px;flex-basis:19px}
+input{min-height:46px;transition:border-color .2s,box-shadow .2s}
+input:focus-visible{outline:none;border-color:#d295e9;box-shadow:0 0 0 3px #bd72dc20}
+button:focus-visible,a:focus-visible{outline:2px solid #dea5f3;outline-offset:4px}
+.steps h3{line-height:1.4}.testimonials article>div{min-height:38px}.metrics strong{font-variant-numeric:tabular-nums}
+@media(max-width:700px){.menu{display:inline-flex}.account{gap:10px;margin-right:10px}.actions{flex-wrap:wrap;gap:10px}.primary,.outline{min-height:42px}.results button{padding:10px 13px;min-height:42px;font-size:11px}.results .actions{gap:10px}.primary .arrow-icon{width:15px;height:15px;flex-basis:15px}nav a{min-height:40px;padding:0 5px}.account .outline{min-height:36px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}button,nav a,input{transition:none}}
